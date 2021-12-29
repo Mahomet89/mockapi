@@ -1,0 +1,85 @@
+{
+    "content": [{
+            "memberNumber": 1125,
+            "isDeceased": false,
+            "person": {
+                "firstname": "person",
+                "lastname": "personLastnameA",
+                "gender": "FEMALE",
+                "birthdate": [195, 4, 13]
+            },
+            "subscriptionItems": [
+                {"2022": "isFullyPaid"},
+                {"2021": "isNotPaid"},
+                {"2020": "isPartiallyPaid"}
+            ]
+        },
+        {
+            "memberNumber": 112,
+            "isDeceased": false,
+            "person": {
+                "firstname": "person",
+                "lastname": "personLastnameA",
+                "gender": "FEMALE",
+                "birthdate": [195, 4, 13]
+            },
+            "subscriptionItems": [
+                {"2022": "isFullyPaid"}
+            ]
+        },
+        {
+            "memberNumber": 11,
+            "isDeceased": true,
+            "person": {
+                "firstname": "person",
+                "lastname": "personLastnameA",
+                "gender": "MALE",
+                "birthdate": [195, 4, 13]
+            },
+            "subscriptionItems": [
+                {"2022": "isFullyPaid"},
+                {"2021": "isNotPaid"},
+                {"2020": "isPartiallyPaid"}
+            ]
+        },
+        {
+            "memberNumber": 1,
+            "isDeceased": false,
+            "person": {
+                "firstname": "person",
+                "lastname": "personLastnameA",
+                "gender": "FEMALE",
+                "birthdate": [195, 4, 13]
+            },
+            "subscriptionItems": [
+                {"2022": "isFullyPaid"},
+                {"2021": "isNotPaid"}
+            ]
+        }
+    ],
+    "pageable": {
+        "sort": {
+            "empty": false,
+            "sorted": true,
+            "unsorted": false
+        },
+        "offset": 0,
+        "pageNumber": 0,
+        "pageSize": 10,
+        "unpaged": false,
+        "paged": true
+    },
+    "last": true,
+    "totalElements": 2,
+    "totalPages": 1,
+    "size": 10,
+    "number": 0,
+    "sort": {
+        "empty": false,
+        "sorted": true,
+        "unsorted": false
+    },
+    "first": true,
+    "numberOfElements": 2,
+    "empty": false
+}
